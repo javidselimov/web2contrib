@@ -1,25 +1,25 @@
 // TAKS1
-const priceSt = prompt("Qiymət daxil edin ==> 530.90 :");
-const price = Number(priceSt);
-const manat = Math.floor(price);
-const qepik = Math.round((price - manat) * 100);
-console.log(`Qiymət ${manat} manat ${qepik} qəpik`);
+// const priceSt = prompt("Qiymət daxil edin ==> 530.90 :");
+// const price = Number(priceSt);
+// const manat = Math.floor(price);
+// const qepik = Math.round((price - manat) * 100);
+// console.log(`Qiymət ${manat} manat ${qepik} qəpik`);
 
 // <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 // TASK2
-const salary = prompt("Əmək haqqınızı daxil edin:");
-console.log(Number(salary) - Number(salary) * 0.13);
+// const salary = prompt("Əmək haqqınızı daxil edin:");
+// console.log(Number(salary) - Number(salary) * 0.13);
 
 // <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 // TASK3
-const fullName = prompt("Tam adınızı daxil edin ==> Soyad Ad Ata adı");
-const fullNameArr = fullName.split(" ");
-console.log(
-  `${fullNameArr[0]} ${fullNameArr[1].slice(0, 1)}.${fullNameArr[2].slice(
-    0,
-    1
-  )}`
-);
+// const fullName = prompt("Tam adınızı daxil edin ==> Soyad Ad Ata adı");
+// const fullNameArr = fullName.split(" ");
+// console.log(
+//   `${fullNameArr[0]} ${fullNameArr[1].slice(0, 1)}.${fullNameArr[2].slice(
+//     0,
+//     1
+//   )}`
+// );
 
 // <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 // TASK4
@@ -32,5 +32,5 @@ console.log(`${muddet} aydan sonra əmanət qazancınız ${menfeet} azn olacaq`)
 
 const il = prompt("İl sayını daxil edin:");
 const vurug = 12;
-let menfeetIl = Number(mebleg) * (1 + Number(muddet) / vurug) * vurug * il;
-alert(`Investisya gəliri : ${menfeetIl}`);
+const menfeetIl = Number(mebleg) * (1 + Number(muddet) / vurug) * vurug * il;
+console.log(`Investisya gəliri : ${menfeetIl}`);
