@@ -35,3 +35,14 @@
 
 // star task
 
+// const mebleg = prompt("Əmanətin Məbləğini daxil edin:");
+// const muddet = prompt("Əmanətin Müddətini daxil edin:");
+// const faizdey = prompt("Əmanətin faiz dərəcəsini daxil edin:");
+// const faiz = (+muddet * +faizdey) / 12;
+// const menfeet = (Number(mebleg) * faiz) / 100;
+// console.log(`${muddet} aydan sonra əmanət qazancınız ${menfeet} azn olacaq`);
+
+// const il = prompt("İl sayını daxil edin:");
+// const vurug = 12;
+// const menfeetIl = Number(mebleg) * (1 + Number(muddet) / vurug) * vurug * il;
+// console.log(`Investisya gəliri : ${menfeetIl}`);
