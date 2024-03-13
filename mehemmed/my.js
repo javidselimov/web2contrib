@@ -20,5 +20,6 @@ let amount = Number(prompt('Əmanətin məbləğini daxil edin'));
 let month = Number(prompt('Ayların sayını daxil edin'));
 let percentage = Number(prompt('İllik faizi daxil edin'));
 let profit = ((amount*(percentage/100))/12)*month;
-// let investment = amount*(1+ (percentage/month)** ())
+let investment = amount*(percentage/100)**(month/12);
 console.log(`${month} aydan sonra əmanətdən qazancınız ${profit} AZN olacaq`);
+console.log(`${month} aydan sonra əmanətdən qazancınız ${investment} AZN olacaq`)
