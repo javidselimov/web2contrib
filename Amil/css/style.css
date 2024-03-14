@@ -1,0 +1,44 @@
+body {
+    background-color: #000000;
+    animation: night 10s infinite 1s;
+    height: 100vh;
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+h1{
+/* padding: 0 50px; */
+height: 80px;
+/* border-radius: 50%; */
+    font-size: 50px;
+    color:yellow;
+    animation: sun 10s infinite 1s;
+}
+@keyframes night {
+    0% {
+        background-color: #fff;
+    }
+
+    50% {
+        background-color: #414141;
+    }
+
+    100% {
+        background-color: #fff;
+    }
+}
+
+@keyframes sun {
+    0% {
+        background-color: yellow;
+    }
+
+    50% {
+        background-color: white;
+    }
+
+    100% {
+        background-color:yellow;
+    }
+  }
