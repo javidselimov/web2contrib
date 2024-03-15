@@ -1,3 +1,62 @@
+//1
+let a=+prompt("iki reqemlli eded daxil et");
+
+while(a < 100){
+    console.log(a);
+    a +=7;
+    
+}
+//2
+let  n = prompt("Neçə dəfə konsola çıxarılsın?");
+n = Number(n);
+while(n <= 0){
+    console.log("Səhvdir")
+}
+    let a = 0
+while(a < n){
+    a++
+    console.log(" know how to use cycles")
+   
+    
+}
+//3
+for(let i=100;i<1000;i++){
+    if(i%10===0){
+        console.log(i);
+    }
+}
+//4
+let cem=0;
+for( let i=10;i<100;i++){
+   if(i%2===1){
+       cem=cem+i;
+   }
+}
+console.log(cem);
+//5
+let eded = prompt("Ədəd daxil edin (müsbət və 999-dan kiçik olmalıdır):");
+let cemi = 0;
+
+if (eded !== null) {
+  
+  if (!isNaN(eded)) {
+    eded = Number(eded);
+    if (eded > 0 && eded <= 999) {
+      
+      for (let i = 100; i <= 999; i++) {
+        if (i % eded === 0) {
+          cemi += i;
+        }
+      }
+      console.log(eded + " ədədinin bölünəni olan üçrəqəmli ədədlərin cəmi: " + cemi);
+    } else {
+      console.log("Xəta: Ədəd müsbət və 999-dan kiçik olmalıdır.");
+    }
+  } else {
+    console.log("Xəta: Düzgün ədəd daxil etməlisiniz.");
+  }
+}
+//bonus
 function isPrime(num) {
     if (num <= 1) return false;
     if (num === 2) return true;
